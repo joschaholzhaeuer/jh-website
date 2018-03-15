@@ -1,0 +1,26 @@
+.app {
+    border: 1px solid tomato;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3em;
+    padding-top: 5em;
+    width: 95%;
+    margin: 0 auto;
+
+    @media (min-width: 620px) {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        max-width: 690px;
+    }
+
+    @media (min-width: 1280px) {
+        width: 80%;
+        grid-template-columns: 1fr 2fr 1fr;
+        max-width: 1600px;
+    }
+
+    @media (min-width: 1680px) {
+        grid-template-columns: 1fr minmax(400px, 2fr) 1fr;
+        grid-gap: 5em;
+    }
+}
