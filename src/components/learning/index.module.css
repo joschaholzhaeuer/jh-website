@@ -1,8 +1,18 @@
 .learning {
-    border: 1px solid pink;
+    // border: 1px solid pink;
     order: 2;
 
     @media (min-width: 1280px) {
         order: 1;
     }
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
 }

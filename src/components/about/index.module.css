@@ -1,7 +1,8 @@
 .about {
-    border: 1px solid #BADA55;
+    // border: 1px solid #BADA55;
     order: 1;
     grid-area: auto / span 1;
+    text-align: center;
 
     @media (min-width: 620px) {
         grid-area: auto / span 2;
@@ -11,17 +12,17 @@
         grid-area: auto / span 1;
         order: 2;
     }
+}
 
-    &__heading {
-        color: #d65055;
-    }
+.heading {
+    color: #d65055;
+}
 
-    &__text {
-        font-size: 20px;
-    }
+.text {
+    font-size: 20px;
+}
 
-    &__link {
-        text-decoration: none;
-        border-bottom: 5px solid #d65055;
-    }
+.link {
+    text-decoration: none;
+    border-bottom: 5px solid #d65055;
 }
