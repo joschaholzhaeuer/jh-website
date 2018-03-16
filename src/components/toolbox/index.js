@@ -9,19 +9,28 @@ class Toolbox extends React.Component {
                 <h2 className={styles.heading}>My favorite tools</h2>
                 <ul className={styles.list}>
                     <Box
-                        heading="Gatsby"
-                        subheading="Static Site Generator"
+                        heading="Timber (Twig)"
+                        subheading="WP Template Engine"
                         icon="icon_book_open"
+                        url="https://www.upstatement.com/timber/"
                     />
                     <Box
-                        heading="React"
-                        subheading="JavaScript Framework"
+                        heading="VS Code"
+                        subheading="Code Editor"
                         icon="icon_github"
+                        url="https://code.visualstudio.com/"
                     />
                     <Box
-                        heading="ES6"
-                        subheading="JavaScript Standard"
+                        heading="GitHub"
+                        subheading="Version Control Platform"
                         icon="icon_mail"
+                        url="https://github.com/joschaholzhaeuer"
+                    />
+                    <Box
+                        heading="Netlify"
+                        subheading="Static Web Host"
+                        icon="icon_mail"
+                        url="https://www.netlify.com/"
                     />
                 </ul>
             </aside>

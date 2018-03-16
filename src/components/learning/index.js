@@ -12,16 +12,19 @@ class Learning extends React.Component {
                         heading="Gatsby"
                         subheading="Static Site Generator"
                         icon="icon_book_open"
+                        url="https://www.gatsbyjs.org/"
                     />
                     <Box
                         heading="React"
-                        subheading="JavaScript Framework"
+                        subheading="JS Framework"
                         icon="icon_github"
+                        url="https://reactjs.org/"
                     />
                     <Box
                         heading="ES6"
-                        subheading="JavaScript Standard"
+                        subheading="ECMAScript Standard"
                         icon="icon_mail"
+                        url="https://babeljs.io/learn-es2015/"
                     />
                 </ul>
             </aside>

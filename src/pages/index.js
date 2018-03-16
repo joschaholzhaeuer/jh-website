@@ -8,9 +8,9 @@ class App extends React.Component {
     render() {
         return (
             <main className={styles.app}>
-                <Learning />
-                <About />
                 <Toolbox />
+                <About />
+                <Learning />
             </main>
         );
     }

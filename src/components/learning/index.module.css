@@ -1,10 +1,6 @@
 .learning {
     // border: 1px solid pink;
-    order: 2;
-
-    @media (min-width: 1280px) {
-        order: 1;
-    }
+    order: 3;
 }
 
 .heading {
