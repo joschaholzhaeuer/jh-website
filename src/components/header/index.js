@@ -6,7 +6,9 @@ class Header extends React.Component {
     render() {
         return (
             <header className={styles.header}>
-                <img src={logo} alt="JH Logo" className={styles.logo}/>
+                <figure className={styles.figure}>
+                    <img src={logo} alt="JH Logo" className={styles.logo} />
+                </figure>
             </header>
         );
     }

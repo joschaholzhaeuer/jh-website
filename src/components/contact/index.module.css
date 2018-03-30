@@ -1,7 +1,14 @@
 .contact {
     display: flex;
-    justify-content: space-around;
-    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5em;
+    margin-bottom: 4em;
+    position: relative;
+
+    @media (min-width: 1280px) {
+        margin-top: 7em;
+    }
 }
 
 .figure {
@@ -10,13 +17,58 @@
     border-radius: 50%;
     width: 120px;
     height: 120px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 0;
     box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 5;
+
+    @media (min-width: 1280px) {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    @media (min-width: 1680px) {
+        width: 150px;
+        height: 150px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    &:before {
+        content: "";
+        width: 226px;
+        height: 226px;
+        border: 2px solid #222b33;
+        border-radius: 50%;
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -113px;
+        margin-left: -113px;
+
+        @media (min-width: 1280px) {
+            width: 270px;
+            height: 270px;
+            margin-top: -135px;
+            margin-left: -135px;
+        }
+    }
 }
 
 .img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    position: relative;
+    z-index: 6;
+
+    @media (min-width: 1680px) {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 .icon {
@@ -24,8 +76,17 @@
     height: 50px;
     background-color: #d65055;
     border-radius: 50%;
-    margin-right: 1em;
     padding: 13px;
+    position: relative;
+    z-index: 5;
+    margin-top: -0.5em;
+    transition: transform 0.1s ease-in;
+
+    &:hover {
+        @media (min-width: 1280px) {
+            transform: scale(1.2);
+        }
+    }
 
     &:after {
         content: "";

@@ -3,6 +3,17 @@
     color: #64727e;
     width: 100%;
     min-height: 100vh;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    overflow-x: hidden;
+
+    @media (min-width: 620px) {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+    @media (min-width: 1280px) {
+        max-height: 1200px;
+        overflow-y: hidden;
+    }
 }

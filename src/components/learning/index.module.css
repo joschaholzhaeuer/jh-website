@@ -1,10 +1,12 @@
 .learning {
     // border: 1px solid pink;
     order: 3;
+    position: relative;
+    z-index: 10;
 }
 
 .heading {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .list {
