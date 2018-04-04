@@ -1,12 +1,14 @@
 import React from "react";
 import styles from "./404.module.css"
+import Contact from './../components/contact/index';
 
 class Error extends React.Component {
     render() {
         return (
             <main className={styles.error}>
-                <h1 className={styles.heading}>Whoops, how did you do that?</h1>
-                <p className={styles.text}>This website actually only has one single page, so why don't you go back? ;)</p>
+                <h1 className={styles.heading}>404 - page does not exist</h1>
+                <p className={styles.text}>Whoops, how did you do that?</p>
+                <Contact />
             </main>
         );
     }
