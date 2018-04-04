@@ -11,13 +11,13 @@ class Toolbox extends React.Component {
                     <Box
                         heading="Timber (Twig)"
                         subheading="WP Template Engine"
-                        icon="icon_loader"
+                        icon="icon_timber"
                         url="https://www.upstatement.com/timber/"
                     />
                     <Box
                         heading="VS Code"
                         subheading="Code Editor"
-                        icon="icon_terminal"
+                        icon="icon_vscode"
                         url="https://code.visualstudio.com/"
                     />
                     <Box
@@ -29,7 +29,7 @@ class Toolbox extends React.Component {
                     <Box
                         heading="Netlify"
                         subheading="Static Web Host"
-                        icon="icon_server"
+                        icon="icon_netlify"
                         url="https://www.netlify.com/"
                     />
                 </ul>

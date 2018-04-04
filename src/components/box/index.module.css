@@ -49,11 +49,43 @@
     }
 }
 
-.icon_book_open {
+.icon_gatsby {
     composes: icon;
 
     &:after {
-        background-image: url(../../images/icon-book-open.svg);
+        background-image: url(../../images/icon-gatsby.svg);
+    }
+}
+
+.icon_js {
+    composes: icon;
+
+    &:after {
+        background-image: url(../../images/icon-js.svg);
+    }
+}
+
+.icon_netlify {
+    composes: icon;
+
+    &:after {
+        background-image: url(../../images/icon-netlify.svg);
+    }
+}
+
+.icon_vscode {
+    composes: icon;
+
+    &:after {
+        background-image: url(../../images/icon-vscode.svg);
+    }
+}
+
+.icon_timber {
+    composes: icon;
+
+    &:after {
+        background-image: url(../../images/icon-timber.svg);
     }
 }
 
@@ -65,66 +97,18 @@
     }
 }
 
-.icon_mail {
+.icon_gatsby {
     composes: icon;
 
     &:after {
-        background-image: url(../../images/icon-mail.svg);
+        background-image: url(../../images/icon-gatsby.svg);
     }
 }
 
-.icon_chrome {
+.icon_reactjs {
     composes: icon;
 
     &:after {
-        background-image: url(../../images/icon-chrome.svg);
-    }
-}
-
-.icon_code {
-    composes: icon;
-
-    &:after {
-        background-image: url(../../images/icon-code.svg);
-    }
-}
-
-.icon_edit {
-    composes: icon;
-
-    &:after {
-        background-image: url(../../images/icon-edit.svg);
-    }
-}
-
-.icon_loader {
-    composes: icon;
-
-    &:after {
-        background-image: url(../../images/icon-loader.svg);
-    }
-}
-
-.icon_package {
-    composes: icon;
-
-    &:after {
-        background-image: url(../../images/icon-package.svg);
-    }
-}
-
-.icon_server {
-    composes: icon;
-
-    &:after {
-        background-image: url(../../images/icon-server.svg);
-    }
-}
-
-.icon_terminal {
-    composes: icon;
-
-    &:after {
-        background-image: url(../../images/icon-terminal.svg);
+        background-image: url(../../images/icon-reactjs.svg);
     }
 }
