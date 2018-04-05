@@ -4,16 +4,16 @@
     width: 100%;
     min-height: 100vh;
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
     overflow-x: hidden;
+    position: relative;
 
     @media (min-width: 620px) {
         padding-top: 5em;
-        padding-bottom: 5em;
     }
 
     @media (min-width: 1280px) {
-        max-height: 1200px;
         overflow-y: hidden;
+        padding-bottom: 8em;
     }
 }

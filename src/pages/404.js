@@ -7,7 +7,7 @@ class Error extends React.Component {
         return (
             <main className={styles.error}>
                 <h1 className={styles.heading}>404 - page does not exist</h1>
-                <p className={styles.text}>Whoops, how did you do that?</p>
+                <p className={styles.text}>Whoops, how did you do that? Click on the logo to go back to the homepage.</p>
                 <Contact />
             </main>
         );

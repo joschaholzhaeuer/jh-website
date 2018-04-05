@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+    font-family: "Montserrat", "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", "sans-serif";
+
+    @media (min-width: 620px) {
+        justify-content: center;
+    }
+}
+
+.text,
+.link {
+    color: #2e3b46;
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+
+    @media (min-width: 620px) {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: #2e3b46;
+    transition: color 0.1s ease-in, border 0.1s ease-in;
+
+    &:hover {
+        @media (min-width: 1280px) {
+            color: #fff191;
+        }
+    }
+}
