@@ -10,7 +10,7 @@ class Contact extends React.Component {
                     <img src={portrait} alt="Portrait of Joscha" className={styles.img}/>
                 </figure>
                 <a href="https://www.xing.com/profile/Joscha_Holzhaeuer?sc_o=mxb_p" target="_blank" className={styles.icon_xing}></a>
-                <a href="mailto:mail@joschaholzhaeuer.de" className={styles.icon_mail}></a>
+                <a href="mailto:mail&#064;joschaholzhaeuer&#046;de" className={styles.icon_mail}></a>
             </div>
         );
     }

@@ -1,3 +1,11 @@
+:global(::selection) {
+    background-color: #253644;
+}
+
+:global(::-moz-selection) {
+    background-color: #253644;
+}
+
 .wrapper {
     background-color: #1e262d;
     color: #64727e;
@@ -10,10 +18,11 @@
 
     @media (min-width: 620px) {
         padding-top: 5em;
+        padding-bottom: 8em;
     }
 
     @media (min-width: 1280px) {
         overflow-y: hidden;
-        padding-bottom: 8em;
+        padding-bottom: 14em;
     }
 }
