@@ -44,10 +44,10 @@
         margin: 0 auto;
         max-width: 300px;
     }
+}
 
-    &__text {
-        margin-bottom: 0;
-    }
+.addresstext {
+    margin-bottom: 0;
 }
 
 .content,
