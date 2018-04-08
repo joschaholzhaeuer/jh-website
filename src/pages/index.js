@@ -12,6 +12,7 @@ class App extends React.Component {
                 <Helmet>
                     <title>Joscha Holzhäuer | Web Developer</title>
                     <meta name="description" content="Hi! I'm Joscha Holzhäuer, frontend web developer and co-founder of dreiQBIK." />
+                    <meta name="google-site-verification" content="aS8JjPVdh06VU1g0t3Hr0UTopLQJrJzxlPLwjnUVd04" />
                 </Helmet>
                 <Toolbox />
                 <About />
