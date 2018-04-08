@@ -3,13 +3,18 @@
     order: 1;
     grid-area: auto / span 1;
     text-align: center;
+    grid-column: 1;
+    grid-row: 1;
 
     @media (min-width: 620px) {
         grid-area: auto / span 2;
+        -ms-grid-column-span: 2;
     }
 
     @media (min-width: 1280px) {
         grid-area: auto / span 1;
+        grid-column: 2;
+        -ms-grid-column-span: 1;
         order: 2;
         align-self: center;
     }

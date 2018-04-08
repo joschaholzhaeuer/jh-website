@@ -3,6 +3,18 @@
     order: 3;
     position: relative;
     z-index: 10;
+    grid-column: 1;
+    grid-row: 3;
+
+    @media (min-width: 620px) {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    @media (min-width: 1280px) {
+        grid-column: 3;
+        grid-row: 1;
+    }
 }
 
 .heading {
