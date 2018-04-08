@@ -15,8 +15,9 @@
 
 .text,
 .link {
-    color: #2e3b46;
+    color: #384753;
     font-size: 1rem;
+    font-weight: bold;
     margin-bottom: 0.5em;
 
     @media (min-width: 620px) {
@@ -28,12 +29,29 @@
 
 .link {
     text-decoration: none;
-    color: #2e3b46;
-    transition: color 0.1s ease-in, border 0.1s ease-in;
+    color: #384753;
+    transition: color 0.1s ease-in;
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: -2px;
+        right: -2px;
+        bottom: 0;
+        height: 0;
+        background-color: #d65055;
+        z-index: -1;
+        transition: all 0.1s ease-in;
+    }
 
     &:hover {
         @media (min-width: 1280px) {
-            color: #fff191;
+            color: #fff;
+
+            &:after {
+                height: 100%;
+            }
         }
     }
 }

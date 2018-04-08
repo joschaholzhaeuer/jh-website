@@ -7,6 +7,7 @@ const typography = new Typography({
             name: 'Montserrat',
             styles: [
                 '800',
+                '300',
             ],
         },
         {
