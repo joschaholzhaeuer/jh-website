@@ -63,3 +63,19 @@
         font-size: 1.25rem;
     }
 }
+
+.link {
+    font-family: "Montserrat", "Helvetica Neue", "Segoe UI", "Helvetica", "Arial", "sans-serif";
+    text-decoration: none;
+    border-bottom: 3px solid #d65055;
+    color: #64727e;
+    transition: color 0.1s ease-in, border 0.1s ease-in;
+    position: relative;
+
+    &:hover {
+        @media (min-width: 1280px) {
+            border-bottom: 3px solid #fff191;
+            color: #fff191;
+        }
+    }
+}
