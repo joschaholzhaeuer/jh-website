@@ -24,15 +24,15 @@ module.exports = {
                 }
             }
         },
-        {
-            resolve: `gatsby-plugin-google-analytics`,
-            options: {
-                trackingId: "UA-60726426-1",
-                head: true,
-                anonymize: true,
-                respectDNT: true,
-            },
-        },
+        // {
+        //     resolve: `gatsby-plugin-google-analytics`,
+        //     options: {
+        //         trackingId: "UA-60726426-1",
+        //         head: true,
+        //         anonymize: true,
+        //         respectDNT: true,
+        //     },
+        // },
         {
             resolve: `gatsby-plugin-postcss-sass`,
             options: {
