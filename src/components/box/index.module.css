@@ -112,3 +112,11 @@
         background-image: url(../../images/icon-reactjs.svg);
     }
 }
+
+.icon_vuejs {
+    composes: icon;
+
+    &:after {
+        background-image: url(../../images/icon-vuejs.svg);
+    }
+}

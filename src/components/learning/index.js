@@ -9,16 +9,16 @@ class Learning extends React.Component {
                 <h2 className={styles.heading}>Currently learning</h2>
                 <ul className={styles.list}>
                     <Box
+                        heading="VueJS"
+                        subheading="JS Framework"
+                        icon="icon_vuejs"
+                        url="https://vuejs.org/"
+                    />
+                    <Box
                         heading="Gatsby"
                         subheading="Static Site Generator"
                         icon="icon_gatsby"
                         url="https://www.gatsbyjs.org/"
-                    />
-                    <Box
-                        heading="React"
-                        subheading="JS Framework"
-                        icon="icon_reactjs"
-                        url="https://reactjs.org/"
                     />
                     <Box
                         heading="ES6"
