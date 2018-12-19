@@ -9,8 +9,8 @@ class Imprint extends React.Component {
                     <address className={styles.address}>
                         <h1 className={styles.heading}>Kontakt</h1>
                         <p className={styles.addresstext}>Joscha Holzhäuer</p>
-                        <p className={styles.addresstext}>Süßener Str. 12</p>
-                        <p className={styles.addresstext}>70327 Stuttgart</p>
+                        <p className={styles.addresstext}>Hengstplatz 3</p>
+                        <p className={styles.addresstext}>76227 Karlsruhe</p>
                     </address>
                 </header>
                 <div className={styles.content}>
