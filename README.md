@@ -1,2 +1,3 @@
 # JH Website
-Build with Gatsby.
+Build with Gatsby and hosted on Netlify.
+
